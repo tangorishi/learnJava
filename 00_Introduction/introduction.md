@@ -23,7 +23,11 @@ This is the bare minimum requirement to start with any programming language.
 You could also use an IDE, which most times come with a text editor and compiler.
 
 Other Requirement-
+
+
 1)Install Java 8 above version
+
+
 2)Eclipse IDE(any other Java code editor)
 
 ## Setup
