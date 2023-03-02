@@ -1,17 +1,15 @@
 [Previous](../README.md) LearnJava
 
-[Next](../01_Hello_world/hello_world.md) Hello-World \
-\
-\
+[Next](../01_Hello_world/hello_world.md) Hello-World 
+
+
 * [Introduction](./introduction.md#introduction)
 	* [Requirements](./introduction.md#requirement)
 	* [Setup](./introduction.md#setup)
-		* Compiler
-		* Setting up environment 
 	* [Coding Style (Betty)](./introduction.md#coding-style-betty)
 	* [Keywords](./introduction.md#keywords) 
 
-\
+
 
 # Introduction
 
@@ -92,10 +90,7 @@ Enough of the introduction
 
 
 In the Next Section, we are going to write some crazy codes.
-\
-\
-\
-\
+
 [Previous](../README.md) LearnJava
 
 [Next](../01_Hello_world/hello_world.md) Hello-World
