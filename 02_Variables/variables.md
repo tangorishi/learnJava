@@ -129,10 +129,13 @@ String myText = "Hello";
 
 
 
-**Local Variables**
+**1)Local Variables**
+
+
 A variable defined within a block or method or constructor is called a local variable. 
 
 These variables are created when the block is entered, or the function is called and destroyed after exiting from the block or when the call returns from the function.
+
 The scope of these variables exists only within the block in which the variables are declared, i.e., we can access these variables only within that block.
 ```
 Initialization of the local variable is mandatory before using it in the defined scope.
@@ -154,7 +157,7 @@ class GFG {
 ```
 Local Variable: 10
 ```
-**Instance Variables**
+**2)Instance Variables**
 
 Instance variables are non-static variables and are declared in a class outside of any method, constructor, or block. 
 
@@ -203,7 +206,7 @@ class GFG {
 Geek name is: Shivangi Singh
 ```
 
-**Static Variables**
+**3)Static Variables**
 
 Static variables are also known as ```class variables.``` 
 
