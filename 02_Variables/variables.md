@@ -4,6 +4,10 @@
 [Next](../03_Operators/operators.md) Operators
 # 
 * [Variables](./variables.md#variables)
+* [Declaring Variables](./variables.md#declaring-variables)
+* [Types of Variables](./variables.md#types-of-variables)
+* [Difference](./variables.md#difference)
+
 	
 # Variables
 Variables are containers for storing data values.
