@@ -139,9 +139,6 @@ Initialization of the local variable is mandatory before using it in the defined
 ```
 
 ```c
-/*package whatever //do not write package name here */
-// Contributed by Shubham Jain
-import java.io.*;
 
 class GFG {
 	public static void main(String[] args)
