@@ -61,10 +61,10 @@ Where type is one of Java's types (such as ```int``` or ```String```)
 
 ***To create a variable that should store text, look at the following example:***
 
-a variable called name of type String and assign it the value "Shivangi":
+a variable called name of type String and assign it the value "XYZ":
 ```c 
 
-String name = "Shivangi";
+String name = "XYZ";
 System.out.println(name);
 
 ````
