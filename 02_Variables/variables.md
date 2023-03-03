@@ -266,18 +266,66 @@ We can access instance variables through object references, and static variables
 ```
 
 
-**Syntax: Static and instance variables**
+
+*Instance Variables*
+
+* Any variable that is defined in class body and outside bodies of methods; and it should not be declared static, abstract, stricftp, synchronized, and native modifier.
+* An instance variable cannot live without its object, and it is a part of the object.
+* Every object has their own copies of instance variables.
+
+*Static Variables (class variables)*
+
+* Use static modifier
+
+* Belong to the class (not to an object of the class)
+
+* One copy of a static variable
+
+* Initialize only once at the start of the execution.
+
+* Enjoy the program’s lifetime
+
+Consider a class MyClass, having one static and one non-static member:
 
 ```c
-class GFG
-{
-    // Static variable
-    static int a; 
-    
-    // Instance variable
-    int b;        
-} 
+public class MyClass {
+    public static int STATICVARIABLE = 0;
+    public int nonStaticVariable = 0;
+}
 ```
+
+Now, let's create a main() to create a couple of instances:
+
+```c
+public class AnotherClass{  
+    public static void main(String[] args) {    
+        // Create two instances of MyClass
+        MyClass obj1  = new MyClass();
+        MyClass obj2  = new MyClass();
+        obj1.nonStaticVariable = 30;  // Setting value for nonstatic varibale
+        obj1.STATICVARIABLE = 40; //Setting value for static variable       
+        obj2.nonStaticVariable = 50;
+        obj2.STATICVARIABLE = 60;
+
+        // Print the values actually set for static and non-static variables.
+        System.out.println(obj1.STATICVARIABLE);
+        System.out.println(obj1.nonStaticVariable);
+        System.out.println(obj2.STATICVARIABLE);
+        System.out.println(obj2.nonStaticVariable);
+    }
+}
+```
+Result:
+```
+60
+30
+60
+50
+```
+
+Now you can see value of the static variable printed 60 both the times, as both obj1 and obj2 were referring to the same variable. With the non-static variable, the outputs differ, as each object when created keeps its own copy of non-static variable; changes made to them do not impact on the other copy of the variable created by another object.
+
+
 
 
 
