@@ -48,7 +48,7 @@ String values are surrounded by double quotes
 
 
 
-## Declaring (Creating) Variables
+## Declaring Variables
 
 Syntax
 
@@ -239,7 +239,7 @@ import java.io.*;
 
 class GFG {
 
-public static String geek = "Shivangi Singh";		 //Declared static variable
+public static String geek = "XYZ";		 //Declared static variable
 
 	public static void main (String[] args) {
 		
@@ -256,10 +256,10 @@ public static String geek = "Shivangi Singh";		 //Declared static variable
 
 *Output*
 ```
-Geek Name is : Shivangi Singh
+Geek Name is : XYZ
 ```
 
-## Differences between the Instance variables and the Static variables
+## Difference
 
 ```
 We can access instance variables through object references, and static variables can be accessed directly using the class name.
