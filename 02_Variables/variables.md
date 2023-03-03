@@ -75,11 +75,11 @@ System.out.println(myNum);
 
 ***Note-that if you assign a new value to an existing variable, it will overwrite the previous value:***
 
-Change the value of myNum from 15 to 20:
+Change the value of myNum from 5 to 20:
 
 
 ```c
-int myNum = 15;
+int myNum = 5;
 myNum = 20;  // myNum is now 20
 System.out.println(myNum);
 ```
@@ -88,7 +88,7 @@ System.out.println(myNum);
 If you don't want others (or yourself) to overwrite existing values, use the final keyword (this will declare the variable as "final" or "constant", which means unchangeable and read-only):
 
 ```c
-final int myNum = 15;
+final int myNum = 5;
 myNum = 20;  // will generate an error: cannot assign a value to a final variable
 ```
 **Other Types**
