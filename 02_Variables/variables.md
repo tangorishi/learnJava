@@ -8,7 +8,7 @@
 # Variables
 Variables are containers for storing data values.
 
-Different variables used in Java 
+Different variables used in Java are as-:
 
 1)```String``` - stores text, such as "Hello". String values are surrounded by double quotes
 
