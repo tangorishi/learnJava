@@ -30,6 +30,15 @@
 
 5)Bitwise operators
 
+
+6)Shift operator
+
+
+7)Instanceof operator
+
+
+8)Ternary operator
+
   
   
 # Arithmetic Operators
@@ -43,10 +52,181 @@ They are used to perform simple arithmetic operations on primitive data types.
 | +	  | 	addition or unary plus |
 | -	 |  	subtraction or unary minus     |
 | *	 |  	multiplication     |
-| /   |       	division     |
+| /   |       	Tedivision     |
 | %	  |      remainder after division (modulo division)     |
 | ++	  | 	increment(value of the variable increases by 1) |
 | -- |  	decrement(value of the variable decreses by 1)     |
+
+Example for Addition(+)-
+
+```c
+// Java code to illustrate Addition operator
+
+import java.io.*;
+
+class Addition {
+	public static void main(String[] args)
+	{
+		// initializing variables
+		int num1 = 10, num2 = 20, sum = 0;
+
+		// Displaying num1 and num2
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);
+
+		// adding num1 and num2
+		sum = num1 + num2;
+		System.out.println("The sum = " + sum);
+	}
+}
+
+```
+
+Output
+
+```
+num1 = 10
+num2 = 20
+The sum = 30
+
+```
+Subtraction(-)
+
+```c
+// Java code to illustrate Subtraction operator
+
+import java.io.*;
+
+class Subtraction {
+	public static void main(String[] args)
+	{
+		// initializing variables
+		int num1 = 20, num2 = 10, sub = 0;
+
+		// Displaying num1 and num2
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);
+
+		// subtracting num1 and num2
+		sub = num1 - num2;
+		System.out.println("Subtraction = " + sub);
+	}
+}
+
+
+```
+
+Output-
+```
+num1 = 20
+num2 = 10
+Subtraction = 10
+
+```
+
+Multiplication(*)
+
+```c
+
+// Java code to illustrate Multiplication operator
+
+import java.io.*;
+
+class Multiplication {
+	public static void main(String[] args)
+	{
+		// initializing variables
+		int num1 = 20, num2 = 10, mult = 0;
+
+		// Displaying num1 and num2
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);
+
+		// Multiplying num1 and num2
+		mult = num1 * num2;
+		System.out.println("Multiplication = " + mult);
+	}
+}
+
+```
+
+Output
+```
+num1 = 20
+num2 = 10
+Multiplication = 200
+
+```
+Division(/)
+```c
+
+// Java code to illustrate Division operator
+
+import java.io.*;
+
+class Division {
+	public static void main(String[] args)
+	{
+		// initializing variables
+		int num1 = 20, num2 = 10, div = 0;
+
+		// Displaying num1 and num2
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);
+
+		// Dividing num1 and num2
+		div = num1 / num2;
+		System.out.println("Division = " + div);
+	}
+}
+
+```
+
+Output-
+
+```
+num1 = 20
+num2 = 10
+Division = 2
+
+```
+
+Modulus(%)
+
+```c
+
+
+// Java code to illustrate Modulus operator
+
+import java.io.*;
+
+class Modulus {
+	public static void main(String[] args)
+	{
+		// initializing variables
+		int num1 = 5, num2 = 2, mod = 0;
+
+		// Displaying num1 and num2
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);
+
+		// Remaindering num1 and num2
+		mod = num1 % num2;
+		System.out.println("Remainder = " + mod);
+	}
+}
+
+```
+
+Output-
+
+```
+num1 = 5
+num2 = 2
+Remainder = 1
+
+```
+
 
 
 
@@ -81,6 +261,116 @@ x += 5;
 | ^=	 |  	x ^= 3     |x = x ^ 3	
 | >>=	 |  x >>= 3	     |x = x >> 3	
 | <<=  |    x <<= 3    |x = x << 3
+
+
+Example
+
+= operator
+
+```c
+// Java code to illustrate "=" operator
+
+import java.io.*;
+
+class Assignment {
+	public static void main(String[] args)
+	{
+		// Declaring variables
+		int num;
+		String name;
+
+		// Assigning values
+		num = 5;
+		name = "Shivangi Singh";
+
+		// Displaying the assigned values
+		System.out.println("num is assigned: " + num);
+		System.out.println("name is assigned: " + name);
+	}
+}
+
+```
+
+Output-
+
+```
+num is assigned: 5
+name is assigned: Shivangi Singh
+
+```
++= operator
+
+```c
+
+// Java code to illustrate "+="
+
+import java.io.*;
+
+class Assignment {
+	public static void main(String[] args)
+	{
+
+		// Declaring variables
+		int num1 = 10, num2 = 20;
+
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);
+
+		// Adding & Assigning values
+		num1 += num2;
+
+		// Displaying the assigned values
+		System.out.println("num1 = " + num1);
+	}
+}
+
+```
+
+Output
+```
+num1 = 10
+num2 = 20
+num1 = 30
+
+```
+
+-= operator
+
+```c
+
+// Java code to illustrate "-="
+
+import java.io.*;
+
+class Assignment {
+	public static void main(String[] args)
+	{
+
+		// Declaring variables
+		int num1 = 10, num2 = 20;
+
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);
+
+		// Subtracting & Assigning values
+		num1 -= num2;
+
+		// Displaying the assigned values
+		System.out.println("num1 = " + num1);
+	}
+}
+
+```
+
+Output-
+
+```
+
+num1 = 10
+num2 = 20
+num1 = -10
+
+```
 
 
 
