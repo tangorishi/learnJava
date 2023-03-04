@@ -52,7 +52,7 @@
 | +	  | 	addition or unary plus |
 | -	 |  	subtraction or unary minus     |
 | *	 |  	multiplication     |
-| /   |       	Tedivision     |
+| /   |       	division     |
 | %	  |      remainder after division (modulo division)     |
 | ++	  | 	increment(value of the variable increases by 1) |
 | -- |  	decrement(value of the variable decreses by 1)     |
