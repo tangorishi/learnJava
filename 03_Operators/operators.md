@@ -14,30 +14,30 @@
   ```Java divides the operators into the following groups:```
  
 
-***1)Arithmetic operators***
+**1)Arithmetic operators**
 
 
-***2)Assignment operators***
+**2)Assignment operators**
 
 
-***3)Comparison operators***
-
-
-
-***4)Logical operators***
+**3)Comparison operators**
 
 
 
-***5)Bitwise operators***
+**4)Logical operators**
 
 
-***6)Shift operator***
+
+**5)Bitwise operators**
 
 
-***7)Instanceof operator***
+**6)Shift operator**
 
 
-***8)Ternary operator***
+**7)Instanceof operator**
+
+
+**8)Ternary operator**
 
   
   
@@ -373,7 +373,7 @@ num1 = -10
 
 ```
 
- **(* =) operator **
+ **(* =) operator**
  
  ```c 
  
@@ -401,7 +401,7 @@ class Assignment {
 
 ```
 
-*Output *
+*Output*
 
 ```
 num1 = 10
@@ -438,7 +438,7 @@ class Assignment {
 
 ```
 
-**(%=) operator: **
+**(%=) operator:**
 
 ```c
 
@@ -1351,7 +1351,7 @@ class GFG
 
 ```
 
-Output
+*Output*
 
 ```
 2
@@ -1415,7 +1415,7 @@ interface MyInterface {
 
 ```
 
-Output
+*Output*
 ```
 obj1 instanceof Person: true
 obj1 instanceof Boy: false
@@ -1451,12 +1451,12 @@ public class operators {
 	}
 }
 ```
-Output-
+*Output-*
 ```
 Max of three numbers = 30
 ```
 
-Examples-
+**Examples-**
 
 ```c
 
@@ -1485,7 +1485,7 @@ class Ternary {
 
 ```
 
-Output
+*Output*
 
 ```
 First num: 5
@@ -1507,7 +1507,7 @@ public class TernaryOperatorExample {
 
 ```
 
-Output
+*Output*
 
 ```
 True
@@ -1537,7 +1537,7 @@ For complex conditions or logic,
 it’s usually better to use an if-else statement to avoid making the code more difficult to understand.
 
 ```
-In the next section we'll be diving into the topic of control flow in Java.....
+In the next section we'll be diving into the topic of control flow in Java
 
 
 #
