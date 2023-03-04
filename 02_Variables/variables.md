@@ -189,7 +189,7 @@ class GFG {
 	public GFG()
 	{ // Default Constructor
 
-		this.geek = "Shivangi Singh"; // initializing Instance Variable
+		this.geek = "XYZ"; // initializing Instance Variable
 	}
 //Main Method
 	public static void main(String[] args)
@@ -207,7 +207,7 @@ class GFG {
 *Output*
 
 ```
-Geek name is: Shivangi Singh
+Geek name is: XYZ
 ```
 
 **3)Static Variables**
