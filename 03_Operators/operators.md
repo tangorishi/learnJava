@@ -3,6 +3,15 @@
 [Next](../04_Control_flow/control_flow.md) Control Flow
 
 * [Operators in Java](./operators.md)
+* [Arithmetic Operators](./operators.md#arithmetic-operators)
+* [Assignment Operators](./operators.md#assignment-operators)
+* [Java Comparison Operators](./operators.md#java-comparison-operators)
+* [Java Logical Operators](./operators.md#java-logical-operators)
+* [Bitwise Operators](./operators.md#bitwise-operators)
+* [Shift Operators](./operators.md#shift-operators)
+* [Instance of Operators](./operators.md#instance-of-operators)
+* [Ternary Operators](./operators.md#ternary-operators)
+* [Advantages of ternary operator](./operators.md#advantages-of-ternary-operator)
 	
   ## JAVA OPERATORS
   
@@ -282,7 +291,7 @@ class Assignment {
 
 		// Assigning values
 		num = 5;
-		name = "Shivangi Singh";
+		name = "XYZ";
 
 		// Displaying the assigned values
 		System.out.println("num is assigned: " + num);
@@ -296,7 +305,7 @@ class Assignment {
 
 ```
 num is assigned: 5
-name is assigned: Shivangi Singh
+name is assigned: XYZ
 
 ```
 **(+ =) operator**
@@ -516,7 +525,7 @@ System.out.println(x > y); // returns true, because 5 is higher than 3
 import java.io.*;
 
 // Main class
-class GFG {
+class operators {
 
 	// Main driver method
 	public static void main(String[] args)
@@ -565,7 +574,7 @@ var1 == var3: true
 import java.io.*;
 
 // Main class
-class GFG {
+class operators {
 
 	// Main driver method
 	public static void main(String[] args)
@@ -613,7 +622,7 @@ var1 == var3: false
 import java.io.*;
 
 // Main class
-class GFG {
+class opertaors {
 
 	// Main driver method
 	public static void main(String[] args)
@@ -1362,7 +1371,7 @@ class GFG
 Note: For negative bits, the signed and unsigned right shift operators provide different results.
 ```
 
- ## Instanceof operator
+ ## Instance of operator
  
  The instance of the operator is used for type checking.
  
@@ -1370,7 +1379,10 @@ Note: For negative bits, the signed and unsigned right shift operators provide d
  
  *Format-*
  
- ```object instance of class/subclass/interface```
+ ```
+ object instance of class/subclass/interface
+ ```
+ 
 ```c
 
 // Java program to illustrate
@@ -1537,7 +1549,7 @@ For complex conditions or logic,
 it’s usually better to use an if-else statement to avoid making the code more difficult to understand.
 
 ```
-In the next section we'll be diving into the topic of control flow in Java
+In the next section we'll be diving into the topic of Control Structures in Java
 
 
 #
