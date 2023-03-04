@@ -1,6 +1,6 @@
 [Previous](../02_Variables/variables.md) Variables
 
-[Next](../04_Control_flow/control_flow.md) Control Flow
+[Next](../04_Control_structures/control_structures.md) Control Structures
 
 * [Operators in Java](./operators.md)
 * [Arithmetic Operators](./operators.md#arithmetic-operators)
@@ -1555,4 +1555,4 @@ In the next section we'll be diving into the topic of Control Structures in Java
 #
 [Previous](../02_Variables/variables.md) Variables
 
-[Next](../04_Control_flow/control_flow.md) Control Flow
+[Next](../04_Control_structures/control_structures.md) Control Structures
