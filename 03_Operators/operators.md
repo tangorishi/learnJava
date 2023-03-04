@@ -4,7 +4,7 @@
 
 * [Operators in Java](./operators.md)
 	
-  **JAVA OPERATORS**
+  ## JAVA OPERATORS
   
   
   
@@ -44,7 +44,7 @@
 # Arithmetic Operators
 
 
-***They are used to perform simple arithmetic operations on primitive data types. ***
+***They are used to perform simple arithmetic operations on primitive data types.***
 
 
 | Operator   |	Meaning of Operator |
@@ -57,7 +57,7 @@
 | ++	  | 	increment(value of the variable increases by 1) |
 | -- |  	decrement(value of the variable decreses by 1)     |
 
-***Example for Addition(+)-: ***
+***Example for Addition(+)-:***
 
 ```c
 // Java code to illustrate Addition operator
