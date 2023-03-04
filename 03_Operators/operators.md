@@ -10,7 +10,7 @@
 * [Bitwise Operators](./operators.md#bitwise-operators)
 * [Shift Operators](./operators.md#shift-operators)
 * [Instance of Operators](./operators.md#instance-of-operators)
-* [Ternary Operators](./operators.md#ternary-operators)
+* [Ternary Operator](./operators.md#ternary-operator)
 * [Advantages of ternary operator](./operators.md#advantages-of-ternary-operator)
 	
   ## JAVA OPERATORS
