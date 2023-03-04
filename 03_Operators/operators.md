@@ -14,37 +14,37 @@
   ```Java divides the operators into the following groups:```
  
 
-1)Arithmetic operators
+***1)Arithmetic operators***
 
 
-2)Assignment operators
+***2)Assignment operators***
 
 
-3)Comparison operators
-
-
-
-4)Logical operators
+***3)Comparison operators***
 
 
 
-5)Bitwise operators
+***4)Logical operators***
 
 
-6)Shift operator
+
+***5)Bitwise operators***
 
 
-7)Instanceof operator
+***6)Shift operator***
 
 
-8)Ternary operator
+***7)Instanceof operator***
+
+
+***8)Ternary operator***
 
   
   
 # Arithmetic Operators
 
 
-They are used to perform simple arithmetic operations on primitive data types. 
+***They are used to perform simple arithmetic operations on primitive data types. ***
 
 
 | Operator   |	Meaning of Operator |
@@ -57,7 +57,7 @@ They are used to perform simple arithmetic operations on primitive data types.
 | ++	  | 	increment(value of the variable increases by 1) |
 | -- |  	decrement(value of the variable decreses by 1)     |
 
-Example for Addition(+)-
+***Example for Addition(+)-: ***
 
 ```c
 // Java code to illustrate Addition operator
@@ -82,7 +82,7 @@ class Addition {
 
 ```
 
-Output
+*Output*
 
 ```
 num1 = 10
@@ -90,7 +90,7 @@ num2 = 20
 The sum = 30
 
 ```
-Subtraction(-)
+**Subtraction(-)**
 
 ```c
 // Java code to illustrate Subtraction operator
@@ -116,7 +116,7 @@ class Subtraction {
 
 ```
 
-Output-
+*Output-*
 ```
 num1 = 20
 num2 = 10
@@ -124,7 +124,7 @@ Subtraction = 10
 
 ```
 
-Multiplication(*)
+**Multiplication(*)**
 
 ```c
 
@@ -150,14 +150,15 @@ class Multiplication {
 
 ```
 
-Output
+*Output*
 ```
 num1 = 20
 num2 = 10
 Multiplication = 200
 
 ```
-Division(/)
+**Division(/)**
+
 ```c
 
 // Java code to illustrate Division operator
@@ -182,7 +183,7 @@ class Division {
 
 ```
 
-Output-
+*Output-*
 
 ```
 num1 = 20
@@ -191,7 +192,7 @@ Division = 2
 
 ```
 
-Modulus(%)
+**Modulus(%)**
 
 ```c
 
@@ -218,7 +219,7 @@ class Modulus {
 
 ```
 
-Output-
+*Output-*
 
 ```
 num1 = 5
@@ -263,9 +264,9 @@ x += 5;
 | <<=  |    x <<= 3    |x = x << 3
 
 
-Example
+***Examples-:**
 
-= operator
+**(=) operator**
 
 ```c
 // Java code to illustrate "=" operator
@@ -291,14 +292,14 @@ class Assignment {
 
 ```
 
-Output-
+*Output-*
 
 ```
 num is assigned: 5
 name is assigned: Shivangi Singh
 
 ```
-+= operator
+**(+ =) operator**
 
 ```c
 
@@ -326,7 +327,7 @@ class Assignment {
 
 ```
 
-Output
+*Output*
 ```
 num1 = 10
 num2 = 20
@@ -334,7 +335,7 @@ num1 = 30
 
 ```
 
--= operator
+**( - = )operator**
 
 ```c
 
@@ -362,7 +363,7 @@ class Assignment {
 
 ```
 
-Output-
+*Output*
 
 ```
 
@@ -372,7 +373,7 @@ num1 = -10
 
 ```
 
- (* =) operator 
+ **(* =) operator **
  
  ```c 
  
@@ -400,7 +401,7 @@ class Assignment {
 
 ```
 
-Output 
+*Output *
 
 ```
 num1 = 10
@@ -409,7 +410,7 @@ num1 = 200
 
 ```
 
-(/=) operator: 
+**(/=) operator:** 
 
 ```c
 
@@ -437,7 +438,7 @@ class Assignment {
 
 ```
 
-(%=) operator: 
+**(%=) operator: **
 
 ```c
 
@@ -465,7 +466,7 @@ class Assignment {
 
 ```
 
-Output
+*Output*
 
 ```
 
@@ -505,7 +506,7 @@ System.out.println(x > y); // returns true, because 5 is higher than 3
  
  
  
- ‘Equal to’ operator (==)
+ **‘Equal to’ operator (==)**
  
  ```c
  
@@ -542,7 +543,7 @@ class GFG {
 
 ```
 
-Output
+*Output*
 
 ```
 
@@ -554,7 +555,7 @@ var1 == var3: true
 
 ```
 
-‘Not equal to’ Operator(!=)
+**‘Not equal to’ Operator(!=)**
 
 ```c
 
@@ -591,7 +592,7 @@ class GFG {
 
 ```
 
-Output
+*Output*
 
 ```
 Var1 = 5
@@ -602,7 +603,7 @@ var1 == var3: false
 
 ```
 
-‘Greater than’ operator(>)
+**‘Greater than’ operator(>)**
 
 ```c
 
@@ -638,7 +639,7 @@ class GFG {
 
 ```
 
-Output
+*Output*
 
 ```
 Var1 = 30
@@ -649,7 +650,7 @@ var3 > var1: false
 
 ```
 
-‘Less than’ Operator(<)
+**‘Less than’ Operator(<)**
 
 ```c
 
@@ -684,7 +685,7 @@ class GFG {
 
 ```
 
-Output
+*Output*
 
 ```
 Var1 = 10
@@ -694,7 +695,7 @@ var1 < var2: true
 var2 < var3: false
 
 ```
-Greater than or equal to (>=)
+**Greater than or equal to (>=)**
 
 ```c
 // Java Program to Illustrate Greater than or equal to
@@ -731,7 +732,7 @@ class GFG {
 
 ```
 
-Output
+*Output*
 
 ```
 Var1 = 20
@@ -742,7 +743,7 @@ var2 >= var3: false
 
 ```
 
-Less than or equal to (<=)
+**Less than or equal to (<=)**
 
 ```c
 
@@ -780,7 +781,7 @@ class GFG {
 
 ```
 
-Output
+*Output*
 
 ```
 Var1 = 10
@@ -821,7 +822,7 @@ public static void main(String[] args) {
 
 ```
 
-Output
+*Output*
 
 ```
 num1 > num2 is false
@@ -845,7 +846,7 @@ Logical operators are used to determine the logic between variables or values:
 | !	 |	Logical NOT. | If c = 5 then, expression !(c==5) equals to TRUE. |
 
 
-Logical ‘AND’ Operator (&&) 
+**Logical ‘AND’ Operator (&&)** 
 
 ```c
 
@@ -878,7 +879,7 @@ class Logical {
 
 ```
 
-Output
+*Output*
 
 ```
 Var1 = 10
@@ -888,7 +889,7 @@ The sum is: 50
 
 ```
 
-Logical ‘OR’ Operator (||) 
+**Logical ‘OR’ Operator (||)** 
 
 ```c
 
@@ -920,7 +921,7 @@ class Logical {
 
 ```
 
-Output
+*Output*
 
 ```
 Var1 = 10
@@ -931,7 +932,7 @@ One or both + the conditions are true
 
 ```
 
-Logical ‘NOT’ Operator (!)
+**Logical ‘NOT’ Operator (!)**
 
 ```c
 
@@ -957,7 +958,7 @@ class Logical {
 
 ```
 
-Output
+*Output*
 
 ```
 Var1 = 10
@@ -987,7 +988,7 @@ Var2 = 1
 
 ```
 
-Output
+*Output*
 
 ```
 a: true
@@ -1009,7 +1010,7 @@ a || b: true
  |~	 |Bitwise Complement Operator |	 This is a unary operator which returns the one’s complement representation of the input value, i.e., with all bits inverted.
  
  
-  Bitwise OR (|) 
+  **Bitwise OR (|)** 
   
   ```
   a = 5 = 0101 (In Binary)
@@ -1023,7 +1024,7 @@ Bitwise OR Operation of 5 and 7
   
   ```
   
-  Bitwise AND (&)
+  **Bitwise AND (&)**
   
   ```
   a = 5 = 0101 (In Binary)
@@ -1037,7 +1038,7 @@ Bitwise AND Operation of 5 and 7
   
   ```
   
-  Bitwise XOR (^) 
+  **Bitwise XOR (^)** 
   
   ```
   a = 5 = 0101 (In Binary)
@@ -1051,7 +1052,7 @@ Bitwise XOR Operation of 5 and 7
   
   ```
   
-  Bitwise Complement (~)
+  **Bitwise Complement (~)**
   
   ```a = 5 = 0101 (In Binary)
 
@@ -1107,7 +1108,7 @@ public class operators {
 
 ```
 
-Output
+*Output*
 
 ```
 a&b = 5
@@ -1161,7 +1162,7 @@ class GFG {
 
 ```
 
-Output
+*Output*
 
 ```
 a= 0011
@@ -1203,7 +1204,7 @@ public class BitwiseOperators {
 
 ```
 
-Output
+*Output*
 
 ```
 This program prompts the user to enter two numbers, num1 and num2. It then performs the following bitwise operations using the &, |, ^, ~, <<, >>, and >>> operators:
@@ -1266,7 +1267,7 @@ Similar effect as dividing the number with some power of two.
 shifts the bits of the number to the right and fills 0 on voids left as a result. The leftmost bit is set to 0.
 
 
-Signed Left Shift Operator in Java(<<)
+**Signed Left Shift Operator in Java(<<)**
 
 ```c
 // Java Program to demonstrate
@@ -1292,13 +1293,13 @@ class GFG {
 
 ```
 
-Output
+*Output*
 
 ```
 8
 
 ```
-Signed Right Shift Operator in Java( >> )
+**Signed Right Shift Operator in Java( >> )**
 
 ```c
 
@@ -1321,14 +1322,14 @@ class GFG
 }
 ```
 
-Output
+*Output*
 
 ```
 the binary number 1000 (in decimal 8) becomes 0010 after shifting the bits to the right (in decimal 2).
 
 ```
 
-Unsigned Right Shift Operator in Java( >>>)
+**Unsigned Right Shift Operator in Java( >>>)**
 
 ```c
 
@@ -1367,7 +1368,8 @@ Note: For negative bits, the signed and unsigned right shift operators provide d
  
  It can be used to test if an object is an instance of a class, a subclass, or an interface.
  
- Format-
+ *Format-*
+ 
  ```object instance of class/subclass/interface```
 ```c
 
@@ -1519,11 +1521,10 @@ True
 2)**Improved readability** : When used correctly, the ternary operator can make the code more readable by making it easier to understand the intent behind the code.
 
 
-3) **Increased performance** : Since the ternary operator evaluates a single expression instead of executing an entire block of code, it can be faster than an equivalent if-else statement.
+3)**Increased performance** : Since the ternary operator evaluates a single expression instead of executing an entire block of code, it can be faster than an equivalent if-else statement.
 
 
-
-4) **Simplification of nested if-else statements** : The ternary operator can simplify complex logic by providing a clean and concise way to perform conditional assignments.
+4)**Simplification of nested if-else statements** : The ternary operator can simplify complex logic by providing a clean and concise way to perform conditional assignments.
 
 
 5)**Easy to debug** : If a problem occurs with the code, the ternary operator can make it easier to identify the cause of the problem because it reduces the amount of code that needs to be examined.
@@ -1531,10 +1532,12 @@ True
 *NOTE*
 
 ```
-It’s worth noting that the ternary operator is not a replacement for all if-else statements. For complex conditions or logic, it’s usually better to use an if-else statement to avoid making the code more difficult to understand.
+It’s worth noting that the ternary operator is not a replacement for all if-else statements. 
+For complex conditions or logic, 
+it’s usually better to use an if-else statement to avoid making the code more difficult to understand.
 
 ```
-
+In the next section we'll be diving into the topic of control flow in Java.....
 
 
 #
