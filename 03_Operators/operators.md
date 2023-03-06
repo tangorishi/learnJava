@@ -3,15 +3,15 @@
 [Next](../04_Control_structures/control_structures.md) Control Structures
 
 * [Operators in Java](./operators.md)
-* [Arithmetic Operators](./operators.md#arithmetic-operators)
-* [Assignment Operators](./operators.md#assignment-operators)
-* [Java Comparison Operators](./operators.md#java-comparison-operators)
-* [Java Logical Operators](./operators.md#java-logical-operators)
-* [Bitwise Operators](./operators.md#bitwise-operators)
-* [Shift Operators](./operators.md#shift-operators)
-* [Instance of Operators](./operators.md#instance-of-operator)
-* [Ternary Operator](./operators.md#ternary-operator)
-* [Advantages of ternary operator](./operators.md#advantages-of-ternary-operator)
+	* [Arithmetic Operators](./operators.md#arithmetic-operators)
+	* [Assignment Operators](./operators.md#assignment-operators)
+	* [Java Comparison Operators](./operators.md#java-comparison-operators)
+	* [Java Logical Operators](./operators.md#java-logical-operators)
+	* [Bitwise Operators](./operators.md#bitwise-operators)
+	* [Shift Operators](./operators.md#shift-operators)
+	* [Instance of Operators](./operators.md#instance-of-operator)
+	* [Ternary Operator](./operators.md#ternary-operator)
+	* [Advantages of ternary operator](./operators.md#advantages-of-ternary-operator)
 	
   ## JAVA OPERATORS
   
