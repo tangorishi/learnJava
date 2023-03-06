@@ -1,5 +1,8 @@
 [Previous](../03_Operators/operators.md) Operators
 
+[Next](../05_Loops/loops.md) Loops
+
+
 
 * [Control Structures](./control_structures.md)
 	* [Conditions](./control_structures.md#conditions)
