@@ -4,7 +4,7 @@
 * [Control Structures](./control_structures.md)
 	* [Conditions](./control_structures.md#conditions)
 	* [if Statement](./control_structures.md#if-statement)
-	* [if-else statement](./control_structures.md#if--else-statement)
+	* [If-Else statement](./control_structures.md#if--else-statement)
 	* [Nested-if](./control_structures.md#nested-if-statement)
 	* [if-else-if ladder](./control_structures.md#if--else--if--ladder)
 	* [Switch Case](./control_structures.md#switch-case)
