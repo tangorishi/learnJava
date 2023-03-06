@@ -1,6 +1,20 @@
 [Previous](../03_Operators/operators.md) Operators
 
 
+* [Control Structures](./control_structures.md)
+	* [Conditions](./control_structures.md#conditions)
+	* [if Statement](./control_structures.md#if-statement)
+	* [If-else statement](./control_structures.md#if--else-statement)
+	* [Nested-if](./control_structures.md#nested-if-statement)
+	* [if-else-if ladder](./control_structures.md#if--else--if--ladder)
+	* [Switch Case](./control_structures.md#switch-case)
+	* [Jump](./control_structures.md#jump)
+	* [Continue](./control_structures.md#continue)
+	* [Break](./control_structures.md#break)
+	* [Return](./control_structures.md#return)
+
+
+ 
 # Control Flow in Java
 
 In a program, we modify and repeat the data several times. We need some tools for these modifications that will control the flow of the program, and to perform this type of tasks Java Provides control statements.
@@ -265,7 +279,7 @@ To exit a loop.
 
 Used as a “civilized” form of goto.
 
-## continue
+## Continue
 
 Sometimes it is useful to force an early iteration of a loop. That is, you might want to continue running the loop but stop processing the remainder of the code in its body for this particular iteration. This is, in effect, a goto just past the body of the loop, to the loop’s end. The continue statement performs such an action. 
 
