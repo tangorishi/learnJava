@@ -40,7 +40,7 @@ Array in Java is a group of like-typed variables referred to by a common name. A
 
 > The size of the array cannot be altered(once initialized).  However, an array reference can be made to point to another array.
 
-```An array can contain primitives (int, char, etc.) and object (or non-primitive) references of a class depending on the definition of the array. In the case of primitive data types, the actual values are stored in contiguous memory locations. In the case of class objects, the actual objects are stored in a heap segment. ```
+An array can contain primitives (int, char, etc.) and object (or non-primitive) references of a class depending on the definition of the array. In the case of primitive data types, the actual values are stored in contiguous memory locations. In the case of class objects, the actual objects are stored in a heap segment.
 
 
 
@@ -62,7 +62,7 @@ An array declaration has two components: ```the type and the name.```
 **Type** declares the element type of the array. 
 The element type determines the data type of each element that comprises the array. Like an array of integers, we can also create an array of other primitive data types like char, float, double, etc., or user-defined data types (objects of a class). Thus, the element type for the array determines what type of data the array will hold. 
 
-```
+```c
 // both are valid declarations
 int intArray[]; 
 or int[] intArray; 
@@ -111,7 +111,7 @@ intArray = new int[20];  // allocating memory to array
 
 In a situation where the size of the array and variables of the array are already known, array literals can be used. 
 
-```
+```c
 int[] intArray = new int[]{ 1,2,3,4,5,6,7,8,9,10 }; 
  // Declaring array literal
  
@@ -342,7 +342,7 @@ Like variables, we can also pass arrays to methods. For example, the below progr
 
 Example 
 
-```
+```c
 // Java program to demonstrate
 // passing of array to method
 
