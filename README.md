@@ -14,7 +14,7 @@ Java theory for beginners.
 | 8 | [Strings](./08_Strings/strings.md)
 | 9 | [Functions](./09_Functions/functions.md) |
 | 10 | [Inheritance](./10_Inheritance/inheritance.md) |
-| 11 | [Polymorphism](./11_Polymorphism)|
+| 11 | [Polymorphism](./11_Polymorphism/polymorphism.md)|
 | 12 | [Exceptions](./12_Exceptions.md) |
 | 13 | [File IO](./13_File_io/file_io.md) |
 | 14 | [GUI Programming with Java Swing](./14_GUI_programming/gui_programming.md)
