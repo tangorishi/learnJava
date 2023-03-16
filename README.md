@@ -10,7 +10,7 @@ Java theory for beginners.
 | 4 | [Control Structures](./04_Control_structures/control_structures.md) |
 | 5 | [Loops](./05_Loops/loops.md) |
 | 6 | [Arrays](./06_Arrays/arrays.md) |
-| 7 | [Lists](./07_Lists/list.md) |
+| 7 | [Lists](./07_Lists/lists.md) |
 | 8 | [Strings](./08_Strings/strings.md)
 | 9 | [Functions](./09_Functions/functions.md) |
 | 10 | [Inheritance](./10_Inheritance/inheritance.md) |
