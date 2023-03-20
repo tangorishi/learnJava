@@ -1,6 +1,21 @@
 [Previous](../05_Loops/loops.md) Loops
 
 
+* [Arrays](./arrays.md)
+* [Arrays in Java](./arrays.md#arrays-in-java)
+* [One Dimensional Array]./arrays.md#one-dimensional-array)
+* [Instantiating an Array]./arrays.md#instantiating-an-array)
+* [Array Literal]./arrays.md#array-literal)
+* [Accessing Array]./arrays.md#accessing-array)
+* [Implementation]./arrays.md#implementation)
+* [Arrays of Objects](./arrays.md#arrays-of-objects)
+* [Multidimensional Arrays](./arrays.md#multidimensional-arrays)
+* [Passing Arrays to Methods](./arrays.md#passing-arrays-to-methods)
+* [Returning Arrays from Methods](./arrays.md#returning-arrays-from-methods)
+* [Class Objects](./arrays.md#class-objects)
+* [Array Members](./arrays.md#array-members)
+* [Cloning of Arrays](./arrays.md#cloning-of-arrays)
+
 # Arrays in Java
 
 Array in Java is a group of like-typed variables referred to by a common name. Arrays in Java work differently than they do in C/C++. Following are some important points about Java arrays. 
@@ -46,7 +61,7 @@ An array can contain primitives (int, char, etc.) and object (or non-primitive) 
 
 **Creating, initializing, and accessing an Array**
 
-# One-Dimensional Arrays:
+## One Dimensional Arrays
 
 general form of a one-dimensional array declaration is 
 
@@ -91,7 +106,7 @@ Collection[] ca;  // array of Collection
 Although the first declaration establishes that int Array is an array variable, no actual array exists. It merely tells the compiler that this variable (int Array) will hold an array of the integer type. To link int Array with an actual, physical array of integers, you must allocate one using new and assign it to int Array. 
 
 
-## Instantiating an Array in Java
+## Instantiating an Array
 
 
 When an array is declared, only a reference of an array is created. To create or give memory to the array, you create an array like this: The general form of new as it applies to one-dimensional arrays appears as follows: 
@@ -119,7 +134,7 @@ int[] intArray = new int[]{ 1,2,3,4,5,6,7,8,9,10 };
 > The length of this array determines the length of the created array.
 > There is no need to write the new int[] part in the latest versions of Java.
 
-## Accessing Java Array Elements using for Loop
+## Accessing Array
 
 Each element in the array is accessed via its index. The index begins with 0 and ends at (total array size)-1. All the elements of array can be accessed using Java for Loop.
 
@@ -130,7 +145,7 @@ for (int i = 0; i < arr.length; i++)
                                 " : "+ arr[i]);
 ```
 
-## Implementation:
+## Implementation
 
 ```c
 
@@ -288,7 +303,7 @@ at GFG.main(GFG.java:13)
 
 ```
 
-# Multidimensional Arrays:
+# Multidimensional Arrays 
 
 Multidimensional arrays are arrays of arrays with each element of the array holding the reference of other arrays. These are also known as Jagged Arrays. A multidimensional array is created by appending one set of square brackets ([]) per dimension. 
 
@@ -412,7 +427,7 @@ Output
 1 2 3 
 
 ```
-## Class Objects for Arrays
+## Class Objects 
 
 Every array has an associated Class object, shared with all other arrays with the same component type. 
 
