@@ -2,19 +2,19 @@
 
 
 * [Arrays](./arrays.md)
-* [Arrays in Java](./arrays.md#arrays-in-java)
-* [One Dimensional Array]./arrays.md#one-dimensional-array)
-* [Instantiating an Array]./arrays.md#instantiating-an-array)
-* [Array Literal]./arrays.md#array-literal)
-* [Accessing Array]./arrays.md#accessing-array)
-* [Implementation]./arrays.md#implementation)
-* [Arrays of Objects](./arrays.md#arrays-of-objects)
-* [Multidimensional Arrays](./arrays.md#multidimensional-arrays)
-* [Passing Arrays to Methods](./arrays.md#passing-arrays-to-methods)
-* [Returning Arrays from Methods](./arrays.md#returning-arrays-from-methods)
-* [Class Objects](./arrays.md#class-objects)
-* [Array Members](./arrays.md#array-members)
-* [Cloning of Arrays](./arrays.md#cloning-of-arrays)
+	* [Arrays in Java](./arrays.md#arrays-in-java)
+	* [One Dimensional Array]./arrays.md#one-dimensional-array)
+	* [Instantiating an Array]./arrays.md#instantiating-an-array)
+	* [Array Literal]./arrays.md#array-literal)
+	* [Accessing Array]./arrays.md#accessing-array)
+	* [Implementation]./arrays.md#implementation)
+	* [Arrays of Objects](./arrays.md#arrays-of-objects)
+	* [Multidimensional Arrays](./arrays.md#multidimensional-arrays)
+	* [Passing Arrays to Methods](./arrays.md#passing-arrays-to-methods)
+	* [Returning Arrays from Methods](./arrays.md#returning-arrays-from-methods)
+	* [Class Objects](./arrays.md#class-objects)
+	* [Array Members](./arrays.md#array-members)
+	* [Cloning of Arrays](./arrays.md#cloning-of-arrays)
 
 # Arrays in Java
 
