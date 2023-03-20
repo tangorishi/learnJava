@@ -1,6 +1,6 @@
 [Previous](../05_Loops/loops.md) Loops
 
-[Next](../07_Strings/strings.md) Strings
+[Next](../07_Lists/lists.md) Lists
 
 
 * [Arrays](./arrays.md)
