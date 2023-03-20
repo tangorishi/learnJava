@@ -2,7 +2,15 @@
 
 [Next](../08_Strings/Strings.md) Strings
 
-# Lists in Java
+
+* [Lists in Java](./lists.md)
+	* [Operations in a List interface](./lists.md#operations-in-java)
+	* [Adding elements to List class](./lists.md#adding-elements-to-list-class)
+	* [Updating elements](./lists.md#updating-elements)
+	* [Searching for elements](./lists.md#searching-for-elements)
+	* [Removing elements](./lists.md#removing-elements)
+
+## Lists in Java
  
 The List interface in Java provides a way to store the ordered collection. It is a child interface of Collection. It is an ordered collection of objects in which duplicate values can be stored. Since List preserves the insertion order, it allows positional access and insertion of elements. 
 
@@ -25,7 +33,7 @@ Since List is an interface, it can be used only with a class that implements thi
 4) Operation 4: Removing elements using remove() method
 
 
-## Operation 1: Adding elements to List class using add() method
+## Adding elements to List class
 
 In order to add an element to the list, we can use the add() method. This method is overloaded to perform multiple operations based on different parameters.
 
@@ -76,7 +84,7 @@ Output
 
 ```
 
-## Operation 2: Updating elements
+##  Updating elements
 
 After adding the elements, if we wish to change the element, it can be done using the set() method. Since List is indexed, the element which we wish to change is referenced by the index of the element. Therefore, this method takes an index and the updated element which needs to be inserted at that index. 
 
@@ -126,7 +134,7 @@ Updated ArrayList [Geeks, For, Geeks]
 
 ```
 
-## Operation 3 : Searching for elements
+## Searching for elements
 
 Searching for elements in the List interface is a common operation in Java programming. The List interface provides several methods to search for elements, such as the indexOf(), lastIndexOf(), and contains() methods.
 
@@ -191,7 +199,7 @@ The list contains 2: true
 
 ```
 
-## Operation 4 : Removing Elements
+## Removing Elements
 
 In order to remove an element from a list, we can use the remove() method. This method is overloaded to perform multiple operations based on different parameters. They are:
 
