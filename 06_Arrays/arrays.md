@@ -3,7 +3,7 @@
 
 * [Arrays](./arrays.md)
 	* [Arrays in Java](./arrays.md#arrays-in-java)
-	* [One Dimensional Array](./arrays.md#one-dimensional-array)
+	* [One Dimensional Arrays](./arrays.md#one-dimensional-arrays)
 	* [Instantiating an Array](./arrays.md#instantiating-an-array)
 	* [Array Literal](./arrays.md#array-literal)
 	* [Accessing Array](./arrays.md#accessing-array)
