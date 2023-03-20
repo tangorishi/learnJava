@@ -1,4 +1,5 @@
 [Previous](../05_Loops/loops.md) Loops
+[Next](../07_Strings/strings.md) Strings
 
 
 * [Arrays](./arrays.md)
