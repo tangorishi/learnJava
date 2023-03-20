@@ -5,6 +5,10 @@
 
 * [Lists](./lists.md)
 	* [Lists in Java](./lists.md#lists-in-java)
+	* [Creating Lists](./lists.md#creating-lists)
+	* [Convert Array to List](./lists.md#convert-array-to-list)
+	* [Convert List to Array](./lists.md#convert-list-to-array)
+	* [Sort List](./lists.md#sort-list)
 	* [Adding elements to List class](./lists.md#adding-elements-to-list-class)
 	* [Updating elements](./lists.md#updating-elements)
 	* [Searching for elements](./lists.md#searching-for-elements)
@@ -15,7 +19,137 @@
 The List interface in Java provides a way to store the ordered collection. It is a child interface of Collection. It is an ordered collection of objects in which duplicate values can be stored. Since List preserves the insertion order, it allows positional access and insertion of elements. 
 
 The List interface is found in java.util package and inherits the Collection interface. It is a factory of ListIterator interface. Through the ListIterator, we can iterate the list in forward and backward directions. The implementation classes of the List interface are ArrayList, LinkedList, Stack, and Vector. ArrayList and LinkedList are widely used in Java programming. The Vector class is deprecated since Java 5.
- 
+
+
+
+## Creating Lists
+
+The ArrayList and LinkedList classes provide the implementation of List interface. Let's see the examples to create the List:
+
+```c
+//Creating a List of type String using ArrayList  
+List<String> list=new ArrayList<String>();  
+  
+//Creating a List of type Integer using ArrayList  
+List<Integer> list=new ArrayList<Integer>();  
+  
+//Creating a List of type Book using ArrayList  
+List<Book> list=new ArrayList<Book>();  
+  
+//Creating a List of type String using LinkedList  
+List<String> list=new LinkedList<String>();  
+```
+
+In short, you can create the List of any type. The ArrayList<T> and LinkedList<T> classes are used to specify the type. Here, T denotes the type.
+
+
+## Convert  Array to List
+
+We can convert the Array to List by traversing the array and adding the element in list one by one using list.add() method. Let's see a simple example to convert array elements into List.
+
+```c
+import java.util.*;  
+public class ArrayToListExample{  
+public static void main(String args[]){  
+//Creating Array  
+String[] array={"Java","Python","PHP","C++"};  
+System.out.println("Printing Array: "+Arrays.toString(array));  
+//Converting Array to List  
+List<String> list=new ArrayList<String>();  
+for(String lang:array){  
+list.add(lang);  
+}  
+System.out.println("Printing List: "+list);  
+  
+}  
+} 
+```
+
+Output:
+
+```
+Printing Array: [Java, Python, PHP, C++]
+Printing List: [Java, Python, PHP, C++]
+```
+
+## Convert List to Array
+
+We can convert the List to Array by calling the list.toArray() method. Let's see a simple example to convert list elements into array.
+
+```c
+import java.util.*;  
+public class ListToArrayExample{  
+public static void main(String args[]){  
+ List<String> fruitList = new ArrayList<>();    
+ fruitList.add("Mango");    
+ fruitList.add("Banana");    
+ fruitList.add("Apple");    
+ fruitList.add("Strawberry");    
+ //Converting ArrayList to Array  
+ String[] array = fruitList.toArray(new String[fruitList.size()]);    
+ System.out.println("Printing Array: "+Arrays.toString(array));  
+ System.out.println("Printing List: "+fruitList);  
+}  
+}
+```
+Output:
+
+```
+Printing Array: [Mango, Banana, Apple, Strawberry]
+Printing List: [Mango, Banana, Apple, Strawberry]
+```
+
+## Sort List
+
+There are various ways to sort the List, here we are going to use Collections.sort() method to sort the list element. The java.util package provides a utility class **Collections** which has the static method sort(). Using the ```Collections.sort()``` method, we can easily sort any List.
+
+```c
+import java.util.*;  
+class SortArrayList{  
+ public static void main(String args[]){  
+  //Creating a list of fruits  
+  List<String> list1=new ArrayList<String>();  
+  list1.add("Mango");  
+  list1.add("Apple");  
+  list1.add("Banana");  
+  list1.add("Grapes");  
+  //Sorting the list  
+  Collections.sort(list1);  
+   //Traversing list through the for-each loop  
+  for(String fruit:list1)  
+    System.out.println(fruit);  
+      
+ System.out.println("Sorting numbers...");  
+  //Creating a list of numbers  
+  List<Integer> list2=new ArrayList<Integer>();  
+  list2.add(21);  
+  list2.add(11);  
+  list2.add(51);  
+  list2.add(1);  
+  //Sorting the list  
+  Collections.sort(list2);  
+   //Traversing list through the for-each loop  
+  for(Integer number:list2)  
+    System.out.println(number);  
+ }  
+   
+}  
+```
+
+Output:
+
+```
+Apple
+Banana
+Grapes
+Mango
+Sorting numbers...
+1
+11
+21
+51
+```
+
 
 ## Operations in a List interface
 
