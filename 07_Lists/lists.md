@@ -43,7 +43,7 @@ List<String> list=new LinkedList<String>();
 In short, you can create the List of any type. The ArrayList<T> and LinkedList<T> classes are used to specify the type. Here, T denotes the type.
 
 
-## Convert  Array to List
+## Conver Array to List
 
 We can convert the Array to List by traversing the array and adding the element in list one by one using list.add() method. Let's see a simple example to convert array elements into List.
 
