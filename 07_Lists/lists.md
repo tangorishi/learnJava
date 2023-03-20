@@ -3,8 +3,8 @@
 [Next](../08_Strings/Strings.md) Strings
 
 
-* [Lists in Java](./lists.md)
-	* [Operations in a List interface](./lists.md#operations-in-java)
+* [Lists](./lists.md)
+	* [Lists in Java](./lists.md#lists-in-java)
 	* [Adding elements to List class](./lists.md#adding-elements-to-list-class)
 	* [Updating elements](./lists.md#updating-elements)
 	* [Searching for elements](./lists.md#searching-for-elements)
