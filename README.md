@@ -19,6 +19,6 @@ Java theory for beginners.
 | 13 | [File IO](./13_File_io/file_io.md) |
 | 14 | [GUI Programming with Java Swing](./14_GUI_programming/gui_programming.md)
 | 15 | [Java Collections Framework](./15_Frameworks/frameworks.md)
-| 16 | [First Contributions]() |
+| 16 | [First Contributions]() 
 
 Feel free to contribute to the repository by adding your own code examples or exercises. Happy learning!
