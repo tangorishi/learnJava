@@ -1,3 +1,34 @@
+# Java Programs 
+# A Repository that will guide you in making your first contribution.
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-yellow.svg?style=flat)
+![Contributions Welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)
+![Hacktoberfest Welcome](https://img.shields.io/static/v1.svg?label=Hacktoberfest&message=Welcome&color=0059b3&style=flat-square)
+
+
+## How to contribute
+1. Star the repository.
+2. Fork the project
+3. Make any changes in your forked repo
+4. On this repo, click `Pull Requests` and raise a `Pull Request` selecting your fork on the right drop down
+
+# STEPS TO CONTRIBUTE
+
+1. `Fork` this Repository 
+2. `Clone` it locally (Use github Desktop to make things easier)
+
+
+
+
+
+
+
+
+
 # LearnJava
 Java theory for beginners.
 ## Table of Topics
