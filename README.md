@@ -36,6 +36,24 @@ We encourage you to contribute Java code examples, exercises, or additional theo
 
 **Note:** Have patience! Your PR will be reviewed by maintainers, and necessary changes will be requested if needed. We appreciate your contributions and will work together to ensure the best quality content.
 
+## Hacktoberfest 2023 Contribution Pull Request Template Message:
+
+**Description:** Briefly describe the purpose of your contribution and what it accomplishes. Explain why this contribution is valuable for the repository.
+
+**Changes Made:**
+- Provide a list of specific changes made, including new features, code additions, or modifications.
+- Describe the technical details of your contribution.
+
+**Testing Done:** Explain the testing process you followed to ensure your contribution functions correctly. Mention any edge cases or scenarios you tested.
+
+**Additional Notes:** Share any additional information, context, or motivation behind your contribution. Highlight how it aligns with the goals of Hacktoberfest 2023 and open source collaboration.
+
+---
+
+By submitting this PR, I confirm that my contributions are made under the terms of the [MIT License](LICENSE).
+
+Signed-off-by: [Your Name] <your@email.com>
+
 
 ## Table of Topics
 
