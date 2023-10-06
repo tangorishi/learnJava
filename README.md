@@ -1,4 +1,4 @@
-# Java Programs 
+# LearnJava
 # A Repository that will guide you in making your first contribution.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
