@@ -77,7 +77,7 @@ Explore the various Java topics covered in this repository:
 | 13   | [File IO](./13_File_io/file_io.md) |
 | 14   | [GUI Programming with Java Swing](./14_GUI_programming/gui_programming.md) |
 | 15   | [Java Collections Framework](./15_Frameworks/frameworks.md) |
-| 16   | [First Contributions](./16_FirstContributions/) |
+| 16   | [First Contributions](./16_FirstContribution) |
 
 ## First Contributions
 
