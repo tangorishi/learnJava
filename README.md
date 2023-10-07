@@ -2,6 +2,7 @@
 
 Welcome to the LearnJava repository, Hacktoberfest edition! This repository is designed to guide beginners in their journey to learn Java and encourage contributions during Hacktoberfest.
 
+
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-yellow.svg?style=flat)
@@ -11,6 +12,10 @@ Welcome to the LearnJava repository, Hacktoberfest edition! This repository is d
 ## Introduction
 
 LearnJava is a beginner-friendly Java theory and practical repository. It aims to provide structured learning materials for Java programming. Whether you're new to programming or want to refresh your Java skills, this repository is a great place to start.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/tangorishi/learnJava/main/Pictures/java_logo_icon.png">
+</div>
 
 ## How to Contribute
 
@@ -46,7 +51,7 @@ We encourage you to contribute Java code examples, exercises, or additional theo
 
 **Testing Done:** Explain the testing process you followed to ensure your contribution functions correctly. Mention any edge cases or scenarios you tested.
 
-**Additional Notes:** Share any additional information, context, or motivation behind your contribution. Highlight how it aligns with the goals of Hacktoberfest 2023 and open source collaboration.
+**Additional Notes: ** Please share any additional information, context, or motivation behind your contribution. Highlight how it aligns with the goals of Hacktoberfest 2023 and open-source collaboration.
 
 ---
 
@@ -91,7 +96,7 @@ This repository is licensed under the [MIT License](LICENSE).
 
 ## Contributors
 
-We'd like to express our gratitude to all the contributors who have helped make this project better. Thank you for your valuable contributions!
+We want to express our gratitude to all the contributors who have helped make this project better. Thank you for your valuable contributions!
 
 ### Past Contributors
 
@@ -102,8 +107,3 @@ We'd like to express our gratitude to all the contributors who have helped make 
 [![Contributor 4](https://avatars.githubusercontent.com/u/94961626?s=150)](https://github.com/Janani-Balasooriya) 
 
 If you have contributed to this project and your image is not here, please let us know, and we'll be happy to add it!
-
-
-
-
-
