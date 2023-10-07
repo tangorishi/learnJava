@@ -17,7 +17,7 @@ public class NumberToWordsConverter {
         "", "thousand", "million", "billion", "trillion"
     };
 
-    public static String convertToWords(int number) {
+    public static String convertToWords(long number) {
         if (number == 0) {
             return "zero";
         }
@@ -25,15 +25,15 @@ public class NumberToWordsConverter {
         return convertToWordsHelper(number).trim();
     }
 
-    private static String convertToWordsHelper(int number) {
+    private static String convertToWordsHelper(long number) {
         if (number < 10) {
-            return ones[number];
+            return ones[(int)number];
         } else if (number < 20) {
-            return teens[number - 10];
+            return teens[(int) (number - 10)];
         } else if (number < 100) {
-            return tens[number / 10] + " " + ones[number % 10];
+            return tens[(int) (number / 10)] + " " + ones[(int) (number % 10)];
         } else if (number < 1000) {
-            return ones[number / 100] + " hundred " + convertToWordsHelper(number % 100);
+            return ones[(int) (number / 100)] + " hundred " + convertToWordsHelper(number % 100);
         } else {
             int i = 0;
             String words = "";
@@ -51,7 +51,7 @@ public class NumberToWordsConverter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        long number = scanner.nextLong();
         scanner.close();
 
         String words = convertToWords(number);
