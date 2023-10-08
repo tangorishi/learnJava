@@ -1,3 +1,5 @@
+// An example to test the build dijkstra algorithm taken from JavTpoint
+
 public class DijkstraTest {
     public static void main(String[] args) {
         int graph[][] = new int[][] { { -1, 3, -1, -1, -1, -1, -1, 7, -1 },  
