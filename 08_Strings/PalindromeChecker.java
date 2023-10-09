@@ -1,4 +1,3 @@
-package 08_Strings;
 
 import java.util.Scanner;
 
@@ -20,12 +19,12 @@ public class PalindromeChecker{
     boolean flag = false; // using flag-variable concept to check for validity
     String rev = "";
     // reversing the word by travesing using reverse indexing
-    for (int i = s.length() - 1; i >= 0; i--)  
+    for (int i = s.length() - 1; i >= 0; i--)
       rev += Character.toString(s.charAt(i));
     // CONSTRAINT - CASE OF STRING WHILE CHECKING IS IGNORED
     if (rev.equalsIgnoreCase(s))
       flag = true;
-    return flag; 
+    return flag;
   }
 }
     
