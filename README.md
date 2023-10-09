@@ -19,11 +19,12 @@ We welcome contributions from developers of all skill levels. If you want to par
 1. **Star** this repository to show your support.
 2. **Fork** the project to your GitHub account.
 3. **Clone** the forked project to your local machine.
-4. Make your changes, whether it's adding new Java code examples, exercises, or improving documentation.
-5. Commit your changes: `git commit -m 'Add Java code examples for XYZ'`.
-6. Push your changes to your fork.
-7. Create a Pull Request (PR) from your fork to this repository's `main` branch.
-8. In your PR, describe the changes you made and why they're valuable.
+4. Create and switch to a new branch: `git checkout -b branch-name`.
+5. Make your changes, whether it's adding new Java code examples, exercises, or improving documentation.
+6. Commit your changes: `git commit -m 'Add Java code examples for XYZ'`.
+7. Push your changes to your fork.
+8. Create a Pull Request (PR) from your fork to this repository's `main` branch.
+9. In your PR, describe the changes you made and why they're valuable.
 
 ## Contributing Java Code for Hacktoberfest
 
