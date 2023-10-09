@@ -22,7 +22,7 @@ We welcome contributions from developers of all skill levels. If you want to par
 4. Create and switch to a new branch: `git checkout -b branch-name`.
 5. Make your changes, whether it's adding new Java code examples, exercises, or improving documentation.
 6. Commit your changes: `git commit -m 'Add Java code examples for XYZ'`.
-7. Push your changes to your fork.
+7. Push your changes to your fork: `git push origin branch-name`.
 8. Create a Pull Request (PR) from your fork to this repository's `main` branch.
 9. In your PR, describe the changes you made and why they're valuable.
 
