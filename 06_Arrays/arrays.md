@@ -568,9 +568,13 @@ lets talk about shallow copy and deep copy over here in arrays
 #In Shallow copy, a copy of the original object is stored and only the reference address is finally copied. In Deep copy, the copy of the original object and the repetitive copies both are stored
 
 code for shallow copy and deep copy:
+
+
+
 import java.util.ArrayList;
  
 // Class of Car
+
 class Car {
     public String name;
     public ArrayList<String> colors;
@@ -619,6 +623,8 @@ public class Main {
         System.out.println();
     }
 }
+
+
 output:
 Deepcopy: ['Red', 'Blue', 'Green']
 Original: ['Red', 'Blue']
@@ -629,6 +635,4 @@ Original: ['Red', 'Blue', 'Green']
 [Previous](../05_Loops/loops.md) Loops
 
 [Next](../07_Strings/strings.md) Strings
-
-lets talk about shallow copy and deep copy over here in arrays
 
