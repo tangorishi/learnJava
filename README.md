@@ -102,6 +102,7 @@ We'd like to express our gratitude to all the contributors who have helped make 
 [![Contributor 4](https://avatars.githubusercontent.com/u/94961626?s=150)](https://github.com/Janani-Balasooriya) 
 [![Contributor 5](https://avatars.githubusercontent.com/u/77701910?s=150)](https://github.com/Sandaru-Dev) 
 [![Contributor 5](https://avatars.githubusercontent.com/u/95538354?s=150)](https://github.com/its-your-invi) 
+[![Contributor 5](https://avatars.githubusercontent.com/u/113664757?s=150)](https://github.com/SumitMangrati) 
 
 If you have contributed to this project and your image is not here, please let us know, and we'll be happy to add it!
 
