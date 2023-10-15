@@ -105,6 +105,8 @@ We'd like to express our gratitude to all the contributors who have helped make 
 [![Contributor 8](https://avatars.githubusercontent.com/u/113664757?s=150)](https://github.com/SumitMangrati) 
 [![Contributor 9](https://avatars.githubusercontent.com/u/75054074?s=150)](https://github.com/LokeshYarramallu) 
 [![Contributor 10](https://avatars.githubusercontent.com/u/90060131?s=150)](https://github.com/itsyourap) 
+[![Contributor 11](https://avatars.githubusercontent.com/u/77482435?s=150)](https://github.com/jcgaming-official) 
+[![Contributor 12](https://avatars.githubusercontent.com/u/58382258?s=150)](https://github.com/arjunpndt) 
 
 If you have contributed to this project and your image is not here, please let us know, and we'll be happy to add it!
 
