@@ -1,0 +1,26 @@
+
+//java gui demo program
+import javax.swing.JOptionPane;
+public class new_prc {
+    public static void main(String[] args) {
+        String name=JOptionPane.showInputDialog("Enter a number: ");
+        int n=Integer.parseInt(name);
+        class new1{
+    int z=1;
+    public new1(int a){
+        System.out.println(a);
+    }
+}
+        int x=0;
+        for(int i=1;i<=n;i++){
+            if(n%i==0){
+                x++;
+            }
+        }
+        if(x==2){
+            JOptionPane.showMessageDialog(null,"Prime");
+        }
+        else
+            JOptionPane.showMessageDialog(null,"Not Prime");
+    }
+}
