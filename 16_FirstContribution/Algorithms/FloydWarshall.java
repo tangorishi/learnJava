@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package Algorithms;
 
 public class FloydWarshall {
     public static void main(String[] args) {
