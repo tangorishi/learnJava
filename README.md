@@ -78,7 +78,7 @@ Explore the various Java topics covered in this repository:
 | 14   | [GUI Programming with Java Swing](./14_GUI_programming/gui_programming.md) |
 | 15   | [Java Collections Framework](./15_Frameworks/frameworks.md) |
 | 16   | [First Contributions](./16_FirstContribution) |
-| 17   | [Stream API](./17_Stream_API/stream_api.mds) |
+| 17   | [Stream API](./17_Stream_API/stream_api.md) |
 
 ## First Contributions
 
