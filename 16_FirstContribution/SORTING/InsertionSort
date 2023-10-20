@@ -1,0 +1,36 @@
+class insertion_sort {
+// Insertion sort function
+    static void insertionSort(int[] arr, int n) {
+        int i, j;
+// Assuming 0th element to be already sorted and checking further
+        for (i = 1; i < n; i++) {
+            int key = arr[i];
+            j = i - 1;
+// Comparing jth element with j-1 for swapping
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j = j - 1;
+            }
+// Updating the 0th position
+            arr[j + 1] = key;
+        }
+    }
+}
+public static void main(String[] args) {
+// Creating and accepting/inputting values in an array from user
+        int n;
+        int[] arr;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of elements: ");
+        n = sc.nextInt();
+        arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        System.out.println();
+        insertionSort(arr,n);
+// Checking/Printing the sorted Array
+        for (int i = 0; i < n; i++) {
+            System.out.println(arr[i]);
+        }
+    }
