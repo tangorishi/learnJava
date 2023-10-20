@@ -79,6 +79,7 @@ Explore the various Java topics covered in this repository:
 | 15   | [Java Collections Framework](./15_Frameworks/frameworks.md) |
 | 16   | [First Contributions](./16_FirstContribution) |
 | 17   | [Stream API](./17_Stream_API/stream_api.md) |
+| 18   | [Multithreading (Parallel Programming)](./18_Multithreading/multithreading.md) |
 
 ## First Contributions
 
