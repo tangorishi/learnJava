@@ -4,7 +4,6 @@ import java.util.Random;
 class spsgame {
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Scanner ex = new Scanner(System.in);
         int i=0 ;
         while (i != 5) {
             System.out.println("1 --- Stone");
@@ -52,7 +51,7 @@ class spsgame {
             System.out.println("");
             System.out.println("4 --- Play Again ");
             System.out.println("5 --- EXIT ");
-            i = ex.nextInt();
+            i = sc.nextInt();
         }
         System.out.println("Thanks for playing");
     }
