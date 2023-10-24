@@ -8,6 +8,9 @@
 //Here is the link for leetcode question which is solved using cycle sort.
 //https://leetcode.com/problems/missing-number/
 
+//Here is the link for leetcode question which is solved using cycle sort.
+//https://leetcode.com/problems/first-missing-positive/description/
+
 
 public class CycleSort {
 
