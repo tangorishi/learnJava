@@ -110,7 +110,7 @@ In a program, comments are like indents one makes, they are used so that it is e
 
 
 
-### Types of Comments in C
+### Types of Comments in Java
 
 1. Single-line comments.
 2. Multi-line comments.
