@@ -558,7 +558,81 @@ true
 
 ```
 
-#
+
+
+
+##deep copy and shalllow copy 
+
+lets talk about shallow copy and deep copy over here in arrays
+
+#In Shallow copy, a copy of the original object is stored and only the reference address is finally copied. In Deep copy, the copy of the original object and the repetitive copies both are stored
+
+code for shallow copy and deep copy:
+
+
+
+import java.util.ArrayList;
+ 
+// Class of Car
+
+class Car {
+    public String name;
+    public ArrayList<String> colors;
+ 
+    public Car(String name, ArrayList<String> colors)
+    {
+        this.name = name;
+        this.colors = colors;
+    }
+}
+ 
+public class Main {
+    public static void main(String[] args)
+    {
+        // Create a Honda car object
+        ArrayList<String> hondaColors = new ArrayList<>();
+        hondaColors.add("Red");
+        hondaColors.add("Blue");
+        Car honda = new Car("Honda", hondaColors);
+ 
+        // Deep copy of Honda
+        Car deepcopyHonda = new Car(
+            honda.name, new ArrayList<>(honda.colors));
+        deepcopyHonda.colors.add("Green");
+        System.out.print("Deepcopy: ");
+        for (String color : deepcopyHonda.colors) {
+            System.out.print(color + " ");
+        }
+        System.out.println("\nOriginal: ");
+        for (String color : honda.colors) {
+            System.out.print(color + " ");
+        }
+        System.out.println();
+ 
+        // Shallow Copy of Honda
+        Car copyHonda = honda;
+        copyHonda.colors.add("Green");
+        System.out.print("Shallow Copy: ");
+        for (String color : copyHonda.colors) {
+            System.out.print(color + " ");
+        }
+        System.out.println("\nOriginal: ");
+        for (String color : honda.colors) {
+            System.out.print(color + " ");
+        }
+        System.out.println();
+    }
+}
+
+
+output:
+Deepcopy: ['Red', 'Blue', 'Green']
+Original: ['Red', 'Blue']
+Shallow Copy: ['Red', 'Blue', 'Green']
+Original: ['Red', 'Blue', 'Green']
+
+
 [Previous](../05_Loops/loops.md) Loops
 
 [Next](../07_Strings/strings.md) Strings
+
