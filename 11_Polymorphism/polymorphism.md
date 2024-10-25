@@ -13,11 +13,13 @@ Polymorphism is the ability to present the same interface for differing underlyi
 ## ***Compile Time Polymorphism :***
 
 The polymorphism which is implemented at the compile time is known as compile-time polymorphism. Example - Method Overloading 
+Example:
+multiply(num1, num2)
+multiply(num1, num2, num3)
 
 *Method Overloading*
 
 Method overloading is a technique which allows you to have more than one function with the same function name but with different functionality. Method overloading can be possible on the following basis: 
-
 
 1. The type of the parameters passed to the function.
 
@@ -50,6 +52,10 @@ class Student {
 ## ***Runtime Polymorphism :***
 
  Runtime polymorphism is also known as dynamic polymorphism. 
+ Example:
+ eat():
+ implementation1: "Eating Fish"
+ implementation1: "Eating Chips"
 
  
  ***Function overriding is an example of runtime polymorphism.***
